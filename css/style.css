@@ -1,0 +1,908 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;1,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {position: relative;
+    color:#363636;;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background: #262626;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    line-height: 7rem;
+    z-index: 100;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+}
+
+.toplogo {
+   width: 18rem;
+
+}
+
+.topbutton button {
+    background: #7AA93C;
+    font-size: 1.4rem;
+    padding: .5rem 2rem;
+    border-radius: 5%;
+    font-weight: 500;
+}
+
+.topbutton button:hover {
+    background: darkgreen;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    background: white;
+    line-height: 7.5rem;
+    justify-content: space-around;
+    margin-top: 1rem;
+    height: 8.5rem;
+    position: fixed;top:5.7rem;
+    z-index: 999;
+}
+
+nav ul li {
+    color: #898989;
+    font-size: 1.4rem;
+    display: inline-block;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+nav li a{
+    text-decoration: none;
+    color:#898989; 
+}
+nav li a:hover{
+    color: black;
+}
+nav li i:hover{
+    color: black;
+}
+#check{
+    display: none;
+
+}
+.checkbtn{
+    display: none;
+
+}
+.checkbtn i{
+    font-size: 25px;
+}
+.info {
+    margin-top:14rem ;
+    height: 68.1rem;
+   max-width: 100%;
+   min-height: 100%;
+    background: url("https://template.hasthemes.com/tuco/tuco/img/slider/slider5.jpg" );
+    text-transform: uppercase;
+    gap: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.info h3 {
+    color: yellow;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+.info h1 {
+    color: white;
+    font-size: 7.2rem;
+    padding: 1.5rem;
+}
+
+.info p {
+    color: white;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}
+
+.cont {
+    padding-left: 15rem;
+    padding-top: 16.5rem;
+}
+
+.middle {
+    text-align: center;
+    padding: 4rem 0;
+    background: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    color: #363636;
+    
+}
+
+.middle h6 {
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+}
+
+
+.middle h1 {
+     padding-bottom: 2rem;  
+     font-size: 3.8rem;
+text-transform: none;
+font-weight: 1000;
+letter-spacing: .2rem;
+margin-bottom: 1rem;
+} 
+.middle h2{
+     padding-bottom: 2rem; 
+} 
+.middle p {
+     padding-bottom: 2rem;
+      letter-spacing: 0.03rem;
+      color: #797979;
+     font-size: 1.4rem;
+     font-weight: 600;
+} 
+ .middle img {
+     padding-bottom: 2rem; 
+} 
+
+
+.row{
+    margin: auto;
+    background: #F5F5F5;
+    padding: 5rem 0;
+    font-family: 'Raleway', sans-serif;
+    height:25rem;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3rem ;
+    width: 100%;
+    height: 100%;
+}
+
+.r1 {
+    width: 35rem;
+}
+
+.i3 {
+    padding-right: 2rem;
+}
+
+.c1 {
+    width: 20rem;
+    
+}
+.c1 h5{
+    font-size: 1.3rem;
+font-weight: 1000;
+color: #363636;
+text-transform: uppercase;
+letter-spacing: .2rem;
+margin-bottom: .5rem;
+}
+.c1 p{
+    color: #797979;
+font-size: 1.4rem;
+font-weight: 600;
+}
+
+.change {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10rem;
+}
+
+.change p {
+    padding: 2rem;
+
+}
+
+.change h2 {
+    font-size: 3.8rem;
+color: #363636;
+text-transform: none;
+font-weight: 800;
+letter-spacing: .2rem;
+margin-bottom: 1rem;
+}
+
+.change img {
+    padding: 3rem;
+
+}
+
+.change p{
+    font-size: 1.6rem;
+}
+ 
+
+
+  .fota { height: auto;width:100% ; border-top: 6px solid white;border-bottom: 6px solid white; box-sizing: border-box;
+    
+  }
+
+.fotaleft {
+    width: 40%;
+}
+.mm0{
+    position: relative; width: 100%; 
+}
+.mm0 img{
+    height: 100%;
+   width: 100%;
+
+}
+
+.mm0::before{content: '';position: absolute;bottom: 0;right: 0; width: 0%; height: 0; background: yellow;transition: 0.9s;opacity: 0.50;
+
+ overflow: hidden;}
+.mm0:hover::before{ height: 100%; width: 100%;}
+
+.fotaright {
+    width: 60%;
+    flex-direction: column;
+}
+.mm1{
+    position: relative;
+}
+.mm1::before{content: '';position: absolute;bottom: 0;right: 0; width: 0%; height: 0; background: yellow;transition: 0.9s;opacity: 0.50;
+
+ overflow: hidden;}
+.mm1:hover::before{ height: 100%; width: 100%;}
+
+.rmathi {
+   height: 50%;
+   width: 100%;
+    
+
+
+}
+
+.mm1 {
+    width: 33.3333%;
+    
+}
+
+.mm1 img {
+    height:100%;
+   width: 100%;
+}
+ 
+.rtala {
+   height: 50%; 
+
+}
+
+
+
+.mm2 {
+    width: 66.67%;
+    
+}
+
+.mm2 img {
+    height:100%;
+    width: 100%;
+
+}
+.mm2{ height: 100%;
+    position: relative;
+}
+.mm2::before{content: '';position: absolute;bottom: 0;right: 0; width: 0%; height: 0; background: yellow;transition: 0.9s;opacity: 0.50;
+
+ overflow: hidden;}
+.mm2:hover::before{ height: 100%; width: 100%;}
+
+
+
+
+.icons {
+    margin: 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    color: #363636;
+    font-family: 'Raleway', sans-serif;
+   
+}
+.yc h2{
+    color: #363636;
+font-size: 1.3rem;
+font-weight: 700;
+letter-spacing: .2rem;
+text-transform: uppercase;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 1rem;
+margin-top: 1rem;
+
+}
+.yc h2:hover{
+color: #ffc107;
+}
+.yc h5:hover{
+    color: #ffc107;
+    }
+.y1 img:hover{
+  background: #262626;
+
+}
+
+.icon1 {
+    margin: auto;
+    
+    background: #F5F5F5;
+    padding: 5rem 0;
+    font-family: 'Raleway', sans-serif;
+    height:25rem;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3rem ;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.icon1 
+p {
+    line-height: 3rem;
+    padding: 1rem 0 0 0;
+    color: #797979;
+font-size: 1.4rem;
+font-weight: 600;
+}
+
+.box {
+    width: 35rem;
+}
+
+.back {
+    text-transform: uppercase;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    height: 20rem;
+    background: url("../image/fun.png") ;
+    background-attachment: fixed;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4rem 0;
+    /* background-position: center center; */
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+.back h1 {
+    color: yellow;
+    font-size: 30px;
+}
+
+.time h3 {
+    color: white;
+}
+
+.people {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 4rem;
+    justify-content: space-around;
+}
+.people{
+    font-size: 1.4rem;
+font-weight: 600;
+}
+
+.box2 {
+    width: 30rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.people img {
+    border-radius: 50%;
+}
+.intro i{
+    color: yellow;
+}
+.intro span i{
+    color: #ccc;
+    
+
+}
+
+.some {
+    margin: 10rem 0;
+    text-align: center;
+    color: #363636;
+    background: white;
+
+}
+.some p{
+    padding-top: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.some h1 {
+    font-size: 3rem;
+    padding: 2rem;
+
+}
+
+.someim {
+    justify-content: space-between;
+    margin: 0 15rem;
+
+}
+
+.someim1 {
+    width: 40rem;
+    height: 50rem;
+    flex-direction: column;
+}
+
+
+.someim3 {
+    width: 40rem;
+    overflow: scroll;
+    height: 40rem;
+}
+.someim3 h2{
+    font-family: "Raleway",sans-serif;
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 2.2rem;
+}
+.someim3 h2:hover{
+    color: #ffc107;
+}
+.mix{ width: 35rem; height: 23.1rem;
+    position: relative;
+
+}
+.mix img{  width: 100%; height: 100%;
+
+}
+.mix::before{content: '';position: absolute;bottom: 0;right: 0; width: 0%; height: 0; background: yellow;transition: 0.9s;opacity: 0.50;
+
+ overflow: hidden;}
+.mix:hover::before{ height: 100%; width: 100%;}
+
+.someim3 ul{
+    padding: 2rem ;
+}
+.someim3 ul li{
+    display: inline;
+}
+.someim3 a{
+    text-decoration: none;
+    color:black;
+    padding-right: 1rem;
+}
+
+.combo {
+    justify-content: space-between;
+    height: 15rem;
+    width: 40rem;
+}
+
+.date {
+    left: 0;
+    border: .2rem solid black;
+    height: 9rem;
+    width: 20%;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.explain {
+    width: 22rem;
+    padding-right: 2rem;
+}
+.explain ul li {
+    display: inline;
+}
+.explain p{
+    font-size: 1.6rem;
+}
+.explain h3{
+    font-size: 2.4rem;
+}
+
+footer {
+   
+    width: 100%;
+    height: 40rem;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.bg{
+    background: url("../image/footer.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+}
+.bg2{
+    background-color: black;
+    width: 100%;
+    height: 40rem;
+    opacity: 0.70;
+
+}
+
+.lastflex {
+    justify-content: space-around;
+    padding-top: 8rem;
+    color: white;
+    
+
+}
+
+.fmiddle {
+    flex-wrap: wrap;
+    width: 36rem;
+}
+.fmiddle h3{
+    font-size: 1.8rem;
+}
+
+.fmiddle a {
+    font-size: 1.4rem;
+    color: #959595;
+    font-weight: 600;
+    border: .2rem solid #555555;
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: 3rem;
+    padding: .7rem 1.8rem;
+    display: inline-block;
+    margin-right: 1.3rem;
+    margin-bottom: 1.8rem;
+}
+.fmiddle a:hover{
+    background: yellow;
+    color: black;
+    font-weight: 600;
+
+}
+
+
+
+.fphoto {
+    flex-direction: column;
+
+}
+
+
+
+.end {
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    margin: 0 9rem;
+}
+.end2 p span{
+    color: yellow;
+    font-weight: 800;
+}
+.fmiddle h3{
+    padding-bottom: 2rem;
+}
+.fphoto h2{
+    padding-bottom: 2rem;
+
+}
+
+.flast{
+    line-height: 4rem;
+}
+.fphoto h3{
+    font-size: 1.8rem;
+}
+
+.end1{
+    margin-top: 2.5rem;
+    width: 45rem;
+    padding: 0 0 .8rem 0;
+    border-bottom: .2rem solid #464646;
+    justify-content: space-between;
+
+  }
+  .email{
+      background: transparentSS;
+  }
+
+.flast i{
+    padding-left: 1rem ;
+    font-size: 2.5rem;
+}
+.flast h4{
+    font-size: 1.8rem;
+}
+.end1 input{
+    background: transparent;
+    color: white;
+    border: none;
+
+}
+.end1 button{
+    background: transparent;
+    border: none;
+    color: white;
+}
+.end2 h4{
+    font-size: 1.8rem;
+}
+
+.lft{width: 18rem; height: 8rem;
+    position: relative; display: inline-block;margin: 1rem;
+}
+
+.lft img{ width: 100%; height: 100%;
+
+}
+.lft::before{content: '';position: absolute;bottom: 0;right: 0; width: 0%; height: 0; background: yellow;transition: 0.9s;opacity: 0.50; overflow: hidden; }
+.lft:hover::before{ height: 100%; width: 100%;}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1400px) {html{
+    font-size: 70% ;
+}
+nav ul li {
+    color: #898989;
+    font-size: 1.4rem;
+    display: inline-block;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+.someim{flex-direction: column; align-items: center;
+
+}
+.bg{
+    height: 55rem;
+}
+.bg2{
+    height: 55rem;
+}
+}
+
+
+ 
+@media (max-width:1000px) {html{
+    font-size: 60% ;
+}
+nav ul li {
+    color: #898989;
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: inline-block;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+.bg{
+    height: 100rem;
+}
+.bg2{
+    height: 100rem;
+}
+.lastflex{
+    padding-left: 5rem;
+    flex-direction: column;
+}
+
+.cont{
+    padding: 15rem 0rem;
+}
+.icon1{
+    flex-direction: column; align-items: center;
+}
+.box{
+    align-items: center;
+}
+.end{
+    flex-direction: column;
+}
+
+}
+
+
+  @media (max-width:795px) {
+    html{ font-size: 55%;  margin: auto;}
+    nav ul li {
+        color: #898989;
+        font-size: 1.4rem;
+        display: inline-block;
+        padding-right: 2rem;
+        text-transform: uppercase;
+    }
+
+    .row{
+        flex-direction: column ;
+        align-items: center; 
+    }
+    .yl{ padding: 2rem;
+
+    }
+    .c1{
+        padding: 2rem;
+
+    }
+    .icon1{
+        flex-direction: column; align-items: center;
+    }
+    .lastflex{
+     flex-direction: column; 
+    }
+    .someim{
+        flex-direction: column; text-align: center;
+    }
+    .people{
+     flex-direction: column; align-items: center;
+    }
+    .back{
+        display: block;
+        padding:4rem;
+    }
+    .box{
+        padding-left: 2rem;
+    }
+    .icons{
+        align-items: center;
+    }
+    .bg{
+        height: 100rem;
+    }
+    .bg2{
+        height: 100rem;
+    }
+    .end{
+        flex-direction: column;
+    }
+    .cont{
+        padding: 15rem 0rem;
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav ul li{
+        display: none;
+    }
+   
+     }
+
+    
+
+@media (max-width:630px) {
+    html{ font-size: 45%;  margin: auto;
+        
+   } 
+   nav ul li {
+    color: #898989;
+    font-size: 1.4rem;
+    display: inline-block;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+  
+.whole p{ font-size: 10px;
+    
+}
+.checkbtn{
+    display: block;
+}
+nav ul li{
+    display: none;
+}
+    .row{
+        flex-direction: column;
+        align-items: center; justify-content: center;
+    }
+    .yl{ padding: 2rem;
+
+    }
+    .c1{
+        padding: 2rem;
+
+    }
+    .icon1{
+        flex-direction: column; align-items: center;
+    }
+    .lastflex{
+        flex-direction: column;
+    }
+    .someim{
+        flex-direction: column; padding: auto;
+    }
+    .people{
+       flex-direction: column;
+       align-items: center;
+    }
+    .back{
+        flex-direction: column;
+        padding:4rem;
+    }
+    .box{
+        padding-left: 2rem;
+    }
+    .icons{
+        align-items: center;
+    }
+    .bg{
+        height: 100rem;
+    }
+    .bg2{
+        height: 100rem;
+    }
+    .end{
+        flex-direction: column;
+    }
+    .cont{
+        padding: 15rem 0rem;
+    }
+
+    .someim3 h3{
+        font-size: 20px;
+    }
+
+
+    .someim3 ul{
+        font-size: 14px;
+
+    }
+    
+}
